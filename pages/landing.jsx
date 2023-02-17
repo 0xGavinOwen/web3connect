@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Card, CardBody, Stack, SimpleGrid } from "@chakra-ui/react";
 
-export default function () {
+export default function Landing () {
     return (
         <div>
             {/* banner */}
@@ -46,7 +46,7 @@ export default function () {
             <div className="bg-[#DBF3FA] h-[450px]">
                 <div className="bg-[#DBF3FA] flex justify-center gap-5 ">
 
-                    <Link href="/profile">
+                    <Link href="/login">
                         <Card className="mt-[70px] bg-[#F0DEFD] rounded" >
                             <div className="relative w-40 h-40 bg-[#F0DEFD]">
                                 <img alt="..."

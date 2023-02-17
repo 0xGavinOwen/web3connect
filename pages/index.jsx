@@ -5,6 +5,7 @@ import { getUser } from "../auth.config";
 import checkBalance from "../util/checkBalance";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
+import Masuk from "./masuk";
 
 export default function Home() {
   const { logout } = useLogout();
@@ -17,14 +18,15 @@ export default function Home() {
     }
   }, [isLoading, isLoggedIn, router]);
 
-  return (
-    <div className={styles.container}>
-      <h1 className={styles.h1}>Restricted Access Page</h1>
-      <p className={styles.explain}>
-        Thanks for being a member of our NFT community!
-      </p>
 
-      <button className={styles.mainButton} onClick={logout}>
+
+//unlocked page
+  return (
+    <div>
+
+      <Masuk/>
+
+      <button className="text-center" onClick={logout}>
         Logout
       </button>
     </div>
@@ -64,7 +66,7 @@ export async function getServerSideProps(context) {
     console.log("User", user.address, "doesn't have an NFT! Redirecting...");
     return {
       redirect: {
-        destination: "/login",
+        destination: "",
         permanent: false,
       },
     };
