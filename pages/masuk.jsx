@@ -56,7 +56,7 @@ export default function Masuk() {
                     <div className="relative">
                       <img
                         alt="..."
-                        src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
+                        src="https://www.famousbirthdays.com/headshots/mr-beast-14.jpg"
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
@@ -94,26 +94,26 @@ export default function Masuk() {
                 </div>
                 <div className="text-center mt-6">
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
-                    Jenna Stones
+                    MrBeast
                   </h3>
                   <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>
-                    Los Angeles, California
+                    Greenville, US
                   </div>
                   <div className="mb-2 text-blueGray-600">
                     <i className="fas fa-venus-mars mr-2 text-lg text-blueGray-400"></i>
-                    Female, 20
+                    Male, 24
                   </div>
                 </div>
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        An artist of considerable range, Jenna the name taken by
-                        Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                        performs and records all of his own music, giving it a
-                        warm, intimate feel with a solid groove structure. An
-                        artist of considerable range.
+                      A creator of massive recognition, MrBeast the name taken by
+                      Greenville-raised, US-based Nick Murphy writes,
+                      performs and records all of his own video, giving it a
+                      warm, intimate feel with a solid giving structure. An
+                      creator of massive recognition.
                       </p>
                       <a href="#pablo" className="font-normal text-sky-400">
                         Show more
@@ -137,41 +137,41 @@ export default function Masuk() {
                       </TabList>
                       <TabPanels>
                         <TabPanel>
-                          <div className="grid grid-cols-3 grid-flow-row gap-6">
+                          <div className="grid grid-cols-3 grid-flow-row gap-10 justify-center">
                             <img
                               alt="..."
-                              src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
+                              src="https://i.scdn.co/image/ab67616d00001e02c4b1650e2afa448d95e954e4"
                               className="shadow-xl rounded h-auto align-middle border-none"
                             />
                             <img
                               alt="..."
-                              src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
-                              className="shadow-xl blur rounded h-auto align-middle border-none"
+                              src="https://www.famousbirthdays.com/faces/mr-beast-image.jpg"
+                              className="shadow-xl rounded h-auto align-middle border-none"
                             />
                             <img
                               alt="..."
-                              src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
-                              className="shadow-xl blur rounded h-auto align-middle border-none"
+                              src="https://cdn.justjaredjr.com/wp-content/uploads/headlines/2023/01/mrbeast-reacts-to-negative-reactions-of-him-helping-pay-for-curing-blindness.jpg"
+                              className="shadow-xl rounded h-auto align-middle border-none"
                             />
                           </div>
                         </TabPanel>
                         <TabPanel>
-                          <div className="grid grid-cols-3 grid-flow-row gap-6">
-                            <video
-                              src="https://www.youtube.com/watch?v=zBjJUV-lzHo"
-                              className="autoplay loop muted shadow-xl rounded h-auto align-middle border-none"
-                            />
-                            <img
-                              alt="..."
-                              src="https://www.axis.com/sites/axis/files/2021-12/video_thumb.png"
-                              className="shadow-xl rounded h-auto align-middle border-none"
-                            />
-                            <img
-                              alt="..."
-                              src="https://www.axis.com/sites/axis/files/2021-12/video_thumb.png"
-                              className="shadow-xl rounded h-auto align-middle border-none"
-                            />
-                          </div>
+                        <div className="grid grid-cols-3 grid-flow-row gap-6">
+                          <img
+                            src="https://wallpaperaccess.com/full/3972620.jpg"
+                            className="shadow-xl rounded align-middle border-none h-72 w-96"
+                          />
+                          <img
+                            alt="..."
+                            src="https://thumbs.dreamstime.com/b/blurred-background-christmas-lights-black-yellow-light-bulbs-festive-164228452.jpg"
+                            className="shadow-xl rounded align-middle border-none h-72 w-96"
+                          />
+                          <img
+                            alt="..."
+                            src="http://blog.creativelive.com/wp-content/uploads/2016/01/lights-night-unsharp-blured.jpg"
+                            className="shadow-xl rounded align-middle border-none h-72 w-96"
+                          />
+                        </div>
                         </TabPanel>
                         <TabPanel>
                           <p>Live</p>

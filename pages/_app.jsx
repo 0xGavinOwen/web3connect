@@ -1,6 +1,5 @@
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import Head from "next/head";
-import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import { domainName } from "../const/yourDetails";
 import "../styles/globals.css";
 import { ChakraProvider } from '@chakra-ui/react'
@@ -20,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       }}
     >
       <Head>
-        <title>NFT Gated Website</title>
+        <title>Web3Connect</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
@@ -28,7 +27,6 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
-      <ThirdwebGuideFooter />
     </ThirdwebProvider>
     </ChakraProvider>
   );

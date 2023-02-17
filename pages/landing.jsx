@@ -47,19 +47,19 @@ export default function Landing () {
                 <div className="bg-[#DBF3FA] flex justify-center gap-5 ">
 
                     <Link href="/login">
-                        <Card className="mt-[70px] bg-[#F0DEFD] rounded" >
+                        <Card className="mt-[70px] bg-[#F0DEFD] rounded-full" >
                             <div className="relative w-40 h-40 bg-[#F0DEFD]">
                                 <img alt="..."
-                                    src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
+                                    src="https://www.famousbirthdays.com/headshots/mr-beast-14.jpg"
                                     //src={imageURL}
                                     className="shadow-xl rounded-full h-auto align-middle border-none" />
                             </div>
                             <div className="items-center justify-center bg-[#F0DEFD]">
                                 <div className="text-center p-1">
-                                    <p className=' text-[#6D67E4] text-xl font-Poppins font-medium'>Jenna</p>
+                                    <p className=' text-[#6D67E4] text-xl font-Poppins font-medium'>Mr</p>
                                 </div>
                                 <div className="text-center p-2">
-                                    <p className=' text-[#6D67E4] text-xl font-Poppins font-medium'>Stones</p>
+                                    <p className=' text-[#6D67E4] text-xl font-Poppins font-medium'>Beast</p>
                                 </div>
                             </div>
                         </Card>

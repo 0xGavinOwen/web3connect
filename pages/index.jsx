@@ -3,7 +3,6 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { useLogout, useUser } from "@thirdweb-dev/react";
 import { getUser } from "../auth.config";
 import checkBalance from "../util/checkBalance";
-import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
 import Masuk from "./masuk";
 
@@ -11,6 +10,9 @@ export default function Home() {
   const { logout } = useLogout();
   const { isLoggedIn, isLoading } = useUser();
   const router = useRouter();
+  
+
+ 
 
   useEffect(() => {
     if (!isLoading && !isLoggedIn) {
@@ -66,7 +68,7 @@ export async function getServerSideProps(context) {
     console.log("User", user.address, "doesn't have an NFT! Redirecting...");
     return {
       redirect: {
-        destination: "",
+        destination: "/login",
         permanent: false,
       },
     };
