@@ -21,10 +21,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Web3Connect</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="Learn how to use the thirdweb Auth SDK to create an NFT Gated Website"
-        />
       </Head>
       <Component {...pageProps} />
     </ThirdwebProvider>

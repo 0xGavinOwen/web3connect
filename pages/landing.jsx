@@ -21,29 +21,11 @@ export default function Landing () {
                         </div>
                     </div>
                 </div>
-                <div className="flex max-w-7xl m-auto gap-4 px-4 mt-4">
-                    <div>
-                        <h3 className="text-[#C58940] font-Poppins font-bold text-xl">
-                            10000+
-                        </h3>
-                        <h3 className="text-[#C58940] font-Poppins font-bold text-xl">
-                            Content
-                        </h3>
-                    </div>
-                    <div>
-                        <h3 className="text-[#C58940] font-Poppins font-bold text-xl">
-                            1000+
-                        </h3>
-                        <h3 className="text-[#C58940] font-Poppins font-bold text-xl">
-                            Artist
-                        </h3>
-                    </div>
-                </div>
             </div>
 
             {/* card */}
 
-            <div className="bg-[#DBF3FA] h-[450px]">
+            <div className="bg-[#DBF3FA] h-[650px]">
                 <div className="bg-[#DBF3FA] flex justify-center gap-5 ">
 
                     <Link href="/login">
@@ -102,21 +84,6 @@ export default function Landing () {
                             </div>
                         </Card>
                     </Link>
-                </div>
-            </div>
-
-            {/* footer */}
-
-
-            <div className="flex items-center justify-between bg-[#ADD8E6] h-[100px] border border-solid]">
-                <div className="ml-[120px]">
-                    <p>Copyright 2023, Designed by <strong>Only Hands</strong></p>
-                </div>
-
-                <div className="flex mr-[120px]">
-                    <p className="mx-[15px]">Privacy Policy</p>
-                    <p className="mx-[15px]">Cookies</p>
-                    <p className="mx-[15px]">Terms & Condition</p>
                 </div>
             </div>
         </div>

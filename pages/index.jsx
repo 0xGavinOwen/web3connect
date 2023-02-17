@@ -10,9 +10,6 @@ export default function Home() {
   const { logout } = useLogout();
   const { isLoggedIn, isLoading } = useUser();
   const router = useRouter();
-  
-
- 
 
   useEffect(() => {
     if (!isLoading && !isLoggedIn) {
@@ -20,17 +17,18 @@ export default function Home() {
     }
   }, [isLoading, isLoggedIn, router]);
 
-
-
-//unlocked page
+  //unlocked page
   return (
     <div>
-
-      <Masuk/>
-
-      <button className="text-center" onClick={logout}>
-        Logout
-      </button>
+      <Masuk />
+      <div className="text-center bg-[#E2E8F0]">
+        <button
+          className="text-center border border-solid rounded-full w-[150px] p-3 bg-teal-500"
+          onClick={logout}
+        >
+          Logout
+        </button>
+      </div>
     </div>
   );
 }

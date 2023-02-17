@@ -1,5 +1,9 @@
 import Link from 'next/link';
 import { Card, CardBody, Stack, SimpleGrid,Tabs,TabList, Tab,TabPanel,TabPanels } from "@chakra-ui/react";
+import Image from "next/image";
+import img from "../util/MrBeast1.png";
+import img2 from "../util/MrBeast2.png";
+import img3 from "../util/MrBeast3.png";
 
 export default function Masuk() {
   return (
@@ -157,7 +161,10 @@ export default function Masuk() {
                         </TabPanel>
                         <TabPanel>
                         <div className="grid grid-cols-3 grid-flow-row gap-6">
-                          <img
+                        <Image src={img} width={400} height={400} alt="" unoptimized={true} />
+                        <Image src={img2} width={400} height={400} alt="" unoptimized={true} />
+                        <Image src={img3} width={400} height={400} alt="" unoptimized={true} />
+                          {/* <img
                             src="https://wallpaperaccess.com/full/3972620.jpg"
                             className="shadow-xl rounded align-middle border-none h-72 w-96"
                           />
@@ -170,7 +177,7 @@ export default function Masuk() {
                             alt="..."
                             src="http://blog.creativelive.com/wp-content/uploads/2016/01/lights-night-unsharp-blured.jpg"
                             className="shadow-xl rounded align-middle border-none h-72 w-96"
-                          />
+                          /> */}
                         </div>
                         </TabPanel>
                         <TabPanel>
