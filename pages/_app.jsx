@@ -6,7 +6,8 @@ import "../styles/globals.css";
 import { ChakraProvider } from '@chakra-ui/react'
 
 // This is the chainId your dApp will work on.
-const activeChainId = ChainId.Mumbai;
+const activeChainId = ChainId.Mumbai; //534354
+//change the chainID to the scroll chain id
 
 function MyApp({ Component, pageProps }) {
   return (
