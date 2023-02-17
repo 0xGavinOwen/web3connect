@@ -3,12 +3,15 @@ import Head from "next/head";
 import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import { domainName } from "../const/yourDetails";
 import "../styles/globals.css";
+import { ChakraProvider } from '@chakra-ui/react'
 
 // This is the chainId your dApp will work on.
-const activeChainId = ChainId.Mumbai;
+const activeChainId = ChainId.Mumbai; //534354
+//change the chainID to the scroll chain id
 
 function MyApp({ Component, pageProps }) {
   return (
+    <ChakraProvider>
     <ThirdwebProvider
       desiredChainId={activeChainId}
       authConfig={{
@@ -27,6 +30,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <ThirdwebGuideFooter />
     </ThirdwebProvider>
+    </ChakraProvider>
   );
 }
 

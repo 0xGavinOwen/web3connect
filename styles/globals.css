@@ -1,29 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"); */
+
 
 /* Box sizing rules */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 /* Set core body defaults */
-body {
+/* body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   padding-bottom: 250px;
-}
+} */
 
 /* Inherit fonts for inputs and buttons */
-input,
+/* input,
 button,
 textarea,
 select {
   font: inherit;
-}
+} */
 
-:root {
+/* :root {
   --background-color: #1c1e21;
   --white: #ffffff;
   --tw-color1: #a855f7;
@@ -41,4 +46,4 @@ body {
 
 h2 {
   font-size: 2rem;
-}
+} */
